@@ -64,6 +64,9 @@ public class MoveToElementActions {
 		act.moveToElement(getElement(parent)).perform();
 		act.moveToElement(getElement(child)).perform();
 		getElement(subchild).click();
+		
+		
+		System.out.println("Added");
 	}
 	
 }

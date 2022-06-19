@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test Sanity Suite">
+
+	<test name="Amazon Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://www.amazon.in/" />
+
+		<classes>
+			<class name="TestNgBasic.AmazonTest" />
+		</classes>
+
+	</test>
+
+	<test name="Googgle Test">
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://google.co.in" />
+
+		<classes>
+			<class name="TestNgBasic.GoogleTest" />
+		</classes>
+
+	</test>
+
+	<test name="ORMS Test">
+
+		<parameter name="browser" value="firefox" />
+		<parameter name="url" value="https://www.orangehrm.com/orangehrm-30-day-trial/" />
+		<parameter name="name" value="vedang" />
+		<parameter name="email" value="vd@gmail.com" />
+		
+		
+		<classes>
+			<class name="TestNgBasic.OpencartTest" />
+		</classes>
+
+	</test>
+
+
+</suite>

@@ -26,7 +26,7 @@ public class TotalLinks {
 		
 		//By links = By.tagName("a");
 		
-		//By images = By.tagName("img");
+		By images = By.tagName("img");
 		
 		
 //	List<WebElement> linkslist =driver.findElements(links);
@@ -84,7 +84,7 @@ public class TotalLinks {
 //		}}
 		
 		
-		  List<WebElement> imageEleList = getElements(images);
+		 List<WebElement> imageEleList = getElements(images);
 		  
 		  for(int i =0 ;i<imageEleList.size();i++) {
 			  

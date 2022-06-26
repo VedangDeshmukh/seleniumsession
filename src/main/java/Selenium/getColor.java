@@ -67,11 +67,12 @@ public class getColor {
 		
 		//3 Approch
 		
-	/*	Color loginButtonColour = getElementColor(sales);
+		Color loginButtonColour = getElementColor(sales);
 		Color loginButtonBackgroundColour = Color.fromString(element.getCssValue("background-color"));
 		
 		System.out.println(loginButtonColour);
-		assert loginButtonBackgroundColour.equals(GREEN);*/
+		System.out.println(loginButtonBackgroundColour);
+		assert loginButtonBackgroundColour.equals(GREEN);
 		
 		//getElement(sales).getCssValue("font");
 		System.out.println(getElement(sales).getCssValue("fontsize"));
